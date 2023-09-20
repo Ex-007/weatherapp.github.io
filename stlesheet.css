@@ -1,0 +1,108 @@
+
+
+@media screen and (max-width: 425px){
+    body{
+        background-color: white;
+        color: rgb(0, 0, 0);
+    }
+    .newTheme{
+        background-color: black;
+        color: white;
+    }
+    
+    #theme{
+        margin-bottom: -20px;
+        border-radius: 10px;
+        font-family: cursive;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .input-info input{
+        border-radius: 10px;
+        padding: 10px;
+        font-family: cursive;
+        font-size: 15px;
+        width: 200px;
+        height: 10px;
+    }
+
+    .input-info button{
+        position: absolute;
+        left: 198px;
+        top: 91px;
+        border-radius: 10px;
+        padding: 5px;
+        font-family: cursive;
+        font-size: 12px;
+        background-color: green;
+        color: white;
+    }
+
+    #display{
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: cursive;
+    }
+    #display h3{
+        margin-bottom: -10px;
+    }
+}
+
+
+
+@media screen and (min-width: 425px){
+    body{
+        background-color: white;
+        color: rgb(0, 0, 0);
+    }
+    .newTheme{
+        background-color: black;
+        color: white;
+    }
+    
+    #theme{
+        position: absolute;
+        right: 10px;
+        border-radius: 10px;
+        font-family: cursive;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    
+    
+   
+    #display{
+        top: 160px;
+        position: absolute;
+        left: 370px;
+        font-family: cursive;
+    }
+    .input-info{
+       position: absolute;
+      
+    }
+    .input-info input{
+        position: absolute;
+        top: 100px;
+        left: 250px;
+        height: 30px;
+        width: 250px;
+        border-radius: 20px 0 20px 0;
+        padding: 0 5px 0 8px;
+        font-family: cursive;
+        border: 2px solid gold;
+    }
+    .input-info button{
+        position: absolute;
+        top: 125px;
+        left: 390px;
+        width: 100px;
+        height: 20px;
+        cursor: pointer;
+        border-radius: 0 20px 0 20px;
+        border: 2px solid rgb(98, 0, 255);
+    }
+}
